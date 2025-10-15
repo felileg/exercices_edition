@@ -1,0 +1,13 @@
+:root {
+    background-color: black;
+    padding: 1rem;
+    font-size-adjust: .5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    max-width: 720px;
+    min-height: calc(100vh - 4rem);
+    margin: auto;
+    padding: 1rem;
+    background-color: wheat;
+}
