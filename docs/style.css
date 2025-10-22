@@ -27,6 +27,11 @@ body {
     padding: 1rem;
     background-color: wheat;
 }
+sup {
+    font-size: 1em;
+    vertical-align: bottom;
+    font-variant-position: super;
+}
 .manuscrit {
     font-style: italic;
 }
