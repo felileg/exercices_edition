@@ -17,9 +17,10 @@
     background-color: black;
     padding: 1rem;
     font-size-adjust: .5;
-    font-family: 'Junicode', Georgia, 'Times New Roman', Times, serif;
+    font-family: Junicode, Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 }
+
 body {
     max-width: 720px;
     min-height: calc(100vh - 4rem);
@@ -27,11 +28,30 @@ body {
     padding: 1rem;
     background-color: wheat;
 }
+
+.manuscrit {
+    font-style: italic;
+}
+
 sup {
     font-size: 1em;
     vertical-align: bottom;
     font-variant-position: super;
 }
-.manuscrit {
-    font-style: italic;
+
+a {
+    text-decoration: none;
+}
+
+.incertain {
+    font-weight: 100;
+}
+
+.incertain::after {
+    content: "?";
+    font-variant-position: super;
+}
+
+.caviardage {
+    text-decoration: line-through 3px;
 }
