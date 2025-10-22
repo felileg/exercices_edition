@@ -1,8 +1,24 @@
+@font-face {
+  font-family: "Junicode";
+  src:
+    local("Junicode"),
+    url("fonts/JunicodeVF-Roman.woff2") format("woff");
+    font-style: normal;
+}
+@font-face {
+  font-family: "Junicode";
+  src:
+    local("Junicode"),
+    url("fonts/JunicodeVF-Italic.woff2") format("woff");
+    font-style: italic;
+}
+
 :root {
     background-color: black;
     padding: 1rem;
     font-size-adjust: .5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Junicode', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 body {
     max-width: 720px;
@@ -10,4 +26,7 @@ body {
     margin: auto;
     padding: 1rem;
     background-color: wheat;
+}
+.manuscrit {
+    font-style: italic;
 }
