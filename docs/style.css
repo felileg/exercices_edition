@@ -47,6 +47,10 @@ img {
     font-variant: discretionary-ligatures;
 }
 
+abbr {
+    font-variant: historical-ligatures;
+}
+
 sup {
     font-size: 1em;
     vertical-align: bottom;
