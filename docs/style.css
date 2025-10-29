@@ -29,13 +29,16 @@ body {
     background-color: wheat;
 }
 
+section {
+    padding-left: 3em;
+}
+
 nav {
     font-variant: small-caps;
 }
 
 .manuscrit {
     font-style: italic;
-    padding-left: 3em;
     font-variant: discretionary-ligatures;
 }
 
