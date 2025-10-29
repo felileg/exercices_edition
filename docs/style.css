@@ -29,9 +29,14 @@ body {
     background-color: wheat;
 }
 
+nav {
+    font-variant: small-caps;
+}
+
 .manuscrit {
     font-style: italic;
     padding-left: 3em;
+    font-variant: discretionary-ligatures;
 }
 
 sup {
@@ -59,4 +64,8 @@ a {
 
 .marge {
     margin-left: -1em;
+}
+
+.variantes {
+    font-style: italic;
 }
