@@ -37,6 +37,11 @@ nav {
     font-variant: small-caps;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .manuscrit {
     font-style: italic;
     font-variant: discretionary-ligatures;
